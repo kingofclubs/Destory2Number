@@ -9,6 +9,7 @@ public class OnClickDestory : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		ani = GetComponent<Animator>();
+		gameObj = this.gameObject;
 	}
 	
 	// Update is called once per frame

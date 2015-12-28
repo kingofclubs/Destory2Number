@@ -45,9 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ClampPosition.cs" />
+     <Compile Include="Assets\ClampObjectToScreenLerp.cs" />
+     <Compile Include="Assets\ClampPositionLerp.cs" />
      <Compile Include="Assets\ClickAndDrag.cs" />
      <Compile Include="Assets\OnClickDestory.cs" />
+     <Compile Include="Assets\OnClickJumpToScene.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
