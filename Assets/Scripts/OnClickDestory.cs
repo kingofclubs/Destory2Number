@@ -36,8 +36,10 @@ public class OnClickDestory : MonoBehaviour
     }
     void DestoryObject()
     {
+        errorTest.toggleObjectFromString(gameObj.tag);
+        gameObj.SetActive(false);
         Destroy(squareOne);
-        Destroy(gameObj);
+        
     }
 }
 
