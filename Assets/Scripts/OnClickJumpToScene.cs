@@ -9,7 +9,7 @@ public class OnClickJumpToScene : MonoBehaviour {
 		if(Input.GetMouseButtonDown(0)){
 			RaycastHit hit;
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-			Vector3 v3;
+			//Vector3 v3;
 
 
 			if(Physics.Raycast(ray, out hit,100.0f)){

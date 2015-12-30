@@ -3,7 +3,7 @@ using System.Collections;
 
 public class OnClickDestory : MonoBehaviour
 {
-    public GameObject gameObj;
+    GameObject gameObj;
     public GameObject squareOne;
     Animator ani;
     bool _isAlive;
@@ -24,21 +24,24 @@ public class OnClickDestory : MonoBehaviour
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             //Transform select = gameObj.transform;
-            if (Physics.Raycast(ray, out hit, 100))
+            if (Physics.Raycast(ray, out hit))
             {
                 //select.tag = "Untagged";
                 //hit.collider.transform.tag = "Player";
                 //Debug.Log("???");
                 _isAlive = hit.collider == gameObj.GetComponent<BoxCollider>();
-                ani.SetBool("isClicked", _isAlive);
+				bool isClickable = errorTest.returnClickableStatusFromTag(hit.collider.tag);
+				//Debug.Log(hit.collider.tag);
+				ani.SetBool("isClicked", _isAlive & isClickable);
             }
         }
     }
     void DestoryObject()
     {
-        errorTest.toggleObjectFromString(gameObj.tag);
+        errorTest.toggleObjectActiveFromTag(gameObj.tag);
         gameObj.SetActive(false);
-        Destroy(squareOne);
+        //Destroy(squareOne);
+		//Debug.Log("Boop");
         
     }
 }
