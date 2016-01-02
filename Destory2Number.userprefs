@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\OnClickDestory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\errorTest.cs">
     <Files>
-      <File FileName="Assets\Scripts\errorTest.cs" Line="34" Column="59" />
+      <File FileName="Assets\Scripts\errorTest.cs" Line="22" Column="2" />
       <File FileName="Assets\Scripts\OnClickJumpToScene.cs" Line="12" Column="6" />
-      <File FileName="Assets\Scripts\OnClickDestory.cs" Line="49" Column="1" NotebookId="1" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="17" Column="27" />
+      <File FileName="Assets\Scripts\OnClickDestory.cs" Line="9" Column="15" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

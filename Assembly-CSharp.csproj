@@ -48,6 +48,7 @@
      <Compile Include="Assets\Scripts\ClampObjectToScreenLerp.cs" />
      <Compile Include="Assets\Scripts\ClampPositionLerp.cs" />
      <Compile Include="Assets\Scripts\ClickAndDrag.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\OnClickDestory.cs" />
      <Compile Include="Assets\Scripts\OnClickJumpToScene.cs" />
      <Compile Include="Assets\Scripts\errorTest.cs" />
