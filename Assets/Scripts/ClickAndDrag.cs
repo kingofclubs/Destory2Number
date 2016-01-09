@@ -16,7 +16,6 @@ public class ClickAndDrag : MonoBehaviour {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			Vector3 v3;
 
-
 			if(Physics.Raycast(ray, out hit,100.0f)){
 				toDrag = hit.transform;
 				dist = hit.transform.position.z - Camera.main.transform.position.z;

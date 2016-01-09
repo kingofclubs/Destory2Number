@@ -13,7 +13,7 @@ public class OnClickJumpToScene : MonoBehaviour {
 
 
 			if(Physics.Raycast(ray, out hit,100.0f)){
-				Debug.Log("bonk!");
+				//Debug.Log("bonk!");
 			}
 		}
 	}
